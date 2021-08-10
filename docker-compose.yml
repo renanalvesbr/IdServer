@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  postgres-db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: "P@ssw0rd"
+    ports:
+      - "5432:5432"
+    
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@local.com"
+      PGADMIN_DEFAULT_PASSWORD: "P@ssw0rd"
+    ports:
+      - "8081:80"
+    depends_on:
+      - postgres-db
