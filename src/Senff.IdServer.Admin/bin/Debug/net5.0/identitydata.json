@@ -1,0 +1,25 @@
+{
+  "IdentityData": {
+    "Roles": [
+      {
+        "Name": "AdminRole"
+      }
+    ],
+    "Users": [
+      {
+        "Username": "admin",
+        "Password": "P@ssw0rd",
+        "Email": "admin@senff.com.br",
+        "Roles": [
+          "AdminRole"
+        ],
+        "Claims": [
+          {
+            "Type": "name",
+            "Value": "admin"
+          }
+        ]
+      }
+    ]
+  }
+}

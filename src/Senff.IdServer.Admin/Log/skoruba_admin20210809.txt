@@ -1,0 +1,2 @@
+2021-08-09 23:23:04.767 -03:00 [ERR] An error occurred using the connection to database 'SenffIdServer' on server 'tcp://localhost:5432'.
+2021-08-09 23:23:06.958 -03:00 [ERR] An error occurred using the connection to database 'SenffIdServer' on server 'tcp://localhost:5432'.

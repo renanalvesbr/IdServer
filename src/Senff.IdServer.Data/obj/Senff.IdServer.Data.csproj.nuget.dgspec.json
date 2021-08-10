@@ -1,0 +1,166 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\temp\\IdServer\\src\\Senff.IdServer.Data\\Senff.IdServer.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\temp\\IdServer\\src\\Senff.IdServer.Data.Shared\\Senff.IdServer.Data.Shared.csproj": {
+      "version": "2.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\temp\\IdServer\\src\\Senff.IdServer.Data.Shared\\Senff.IdServer.Data.Shared.csproj",
+        "projectName": "Senff.IdServer.Data.Shared",
+        "projectPath": "C:\\temp\\IdServer\\src\\Senff.IdServer.Data.Shared\\Senff.IdServer.Data.Shared.csproj",
+        "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\IdServer\\src\\Senff.IdServer.Data.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Skoruba.AuditLogging.EntityFramework": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Skoruba.IdentityServer4.Admin.EntityFramework": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Skoruba.IdentityServer4.Admin.EntityFramework.Configuration": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Skoruba.IdentityServer4.Admin.EntityFramework.Identity": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\temp\\IdServer\\src\\Senff.IdServer.Data\\Senff.IdServer.Data.csproj": {
+      "version": "2.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\temp\\IdServer\\src\\Senff.IdServer.Data\\Senff.IdServer.Data.csproj",
+        "projectName": "Senff.IdServer.Data",
+        "projectPath": "C:\\temp\\IdServer\\src\\Senff.IdServer.Data\\Senff.IdServer.Data.csproj",
+        "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
+        "outputPath": "C:\\temp\\IdServer\\src\\Senff.IdServer.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\temp\\IdServer\\src\\Senff.IdServer.Data.Shared\\Senff.IdServer.Data.Shared.csproj": {
+                "projectPath": "C:\\temp\\IdServer\\src\\Senff.IdServer.Data.Shared\\Senff.IdServer.Data.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "IdentityServer4.EntityFramework.Storage": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.5.1, )"
+            },
+            "Skoruba.IdentityServer4.Admin.EntityFramework": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Skoruba.IdentityServer4.Admin.EntityFramework.Identity": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
